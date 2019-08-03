@@ -1,14 +1,10 @@
 // Navigation code here
 nav {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
+  .nav-dimensions();
   background-color: @nav-bg;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.25rem 0;
-  border-bottom: 1px solid @nav-border;
 
   h1 {
     font-size: 4rem;
@@ -16,9 +12,7 @@ nav {
   }
 
   a {
-    font-size: 1.6rem;
-    text-decoration: none;
-    color: @header-font-color;
+    .nav-list-of-links();
     padding: 0 1.5rem;
   }
 }
