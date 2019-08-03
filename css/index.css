@@ -161,10 +161,15 @@ p {
   margin: 0 auto;
 }
 nav {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1.25rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #F1F1F1;
 }
 nav h1 {
   font-size: 4rem;
@@ -191,6 +196,10 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  width: 100%;
+  border-radius: 4px;
 }
 .home .space-images {
   display: flex;
