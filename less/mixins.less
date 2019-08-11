@@ -1,1 +1,24 @@
 // Mixins Here
+.nav-dimensions {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid @nav-border;
+}
+
+.nav-list-of-links {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: @header-font-color;
+}
+
+.cta-btn(@background-color, @color, @padding, @font-size, @border-radius, @text-align, @width) {
+  background-color: @background-color;
+  color: @color;
+  padding: @padding;
+  font-size: @font-size;
+  border-radius: @border-radius;
+  text-align: @text-align;
+  width: @width;
+}
